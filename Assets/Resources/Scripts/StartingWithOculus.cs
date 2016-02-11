@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEditor;
 using System.Collections;
 
 public class StartingWithOculus : MonoBehaviour {
@@ -32,10 +31,8 @@ public class StartingWithOculus : MonoBehaviour {
 	}
 
 	void parentObjects(Transform parent, bool isParented) {
-		if (PlayerSettings.virtualRealitySupported) {
 			this.transform.GetChild (0).SetParent (parent);
 			this.transform.GetChild (0).SetParent (parent);
 			parented = isParented;
-		}
 	}
 }

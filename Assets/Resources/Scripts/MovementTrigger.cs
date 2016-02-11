@@ -20,7 +20,7 @@ public class MovementTrigger : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (check1.swordDocked || check2.swordDocked) {
-			MoveHoverBoard ();
+			//aaaaaaaMoveHoverBoard ();
 			StartingWithOculus.isMoving = true;
 		} else {
 			StartingWithOculus.isMoving = false;

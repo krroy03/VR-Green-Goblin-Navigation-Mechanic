@@ -6,7 +6,7 @@ public class SixenseHandsController : MonoBehaviour
 	SixenseHand[] 	m_hands;
 
 	Vector3	m_baseOffset;
-	float 	m_sensitivity = 0.001f; // Sixense units are in mm
+	float 	m_sensitivity = 0.0005f; // Sixense units are in mm
 	bool 	m_bInitialized;
 
 
